@@ -1,0 +1,20 @@
+
+.home_wrapper {
+  padding-top: 6.875rem;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+
+.home_wrapper .home-content h4::after {
+    content: '';
+    width: 30%;
+    height: 0.115rem;
+    position: absolute;
+    top: 75%;
+    left: 28%;
+    background: var(--bg-black);
+    overflow-x: hidden;
+}

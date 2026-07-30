@@ -1,0 +1,222 @@
+/* =====================================
+   Projects Section
+===================================== */
+
+.projects_wrapper {
+    position: relative;
+}
+
+/* =====================================
+   Project Card
+===================================== */
+
+.project-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+    transition: .35s;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .06);
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .12);
+}
+
+/* =====================================
+   Project Image
+===================================== */
+
+.project-image {
+    height: 11.475rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: .5s;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.08);
+}
+/* =====================================
+   Project Body
+===================================== */
+
+.project-body {
+    padding: 1.015rem;
+}
+
+.project-body h5 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #111;
+}
+
+.project-body p {
+    color: #777;
+    margin-bottom: 18px;
+    line-height: 1.7;
+}
+
+.project-body .project-type {
+    font-size: small;
+    color: rgb(6, 186, 6);
+    font-weight: 600;
+}
+
+/* =====================================
+   Tech Stack
+===================================== */
+
+.project-tech {
+    margin-bottom: 20px;
+}
+
+.project-tech span {
+    display: inline-block;
+    background: #EEF4FF;
+    color: #162cba;
+    padding: 4px 15px;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.project-tech span:hover {
+    background: #4458dc;
+    color: #fff;
+}
+
+/* =====================================
+   Buttons
+===================================== */
+
+.project-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-btns .btn {
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.project-btns .btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+.project-btns .btn-outline-primary:hover {
+    transform: translateY(-2px);
+}
+/* =====================================
+   Responsive Design
+===================================== */
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 991px) {
+
+    .projects_wrapper {
+        padding: 70px 0;
+    }
+
+    .project-card {
+        margin: 0 auto;
+    }
+
+    .project-image {
+        height: 220px;
+    }
+
+    .project-body h5 {
+        font-size: 20px;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 767px) {
+
+    .projects_wrapper {
+        padding: 60px 0;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    .project-body {
+        padding: 18px;
+    }
+
+    .project-body h5 {
+        font-size: 18px;
+    }
+
+    .project-body p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .project-tech span {
+        font-size: 10px;
+        padding: 4px 12px;
+    }
+
+    .project-btns .btn {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+}
+
+/* ---------- Small Mobile ---------- */
+
+@media (max-width: 576px) {
+
+    .project-card {
+        border-radius: 16px;
+    }
+
+    .project-image {
+        padding: 0.8rem;
+        border-radius: 10px;
+        height: 180px;
+    }
+    .project-image img{
+        border-radius: 16px 16px 0 0;
+    }
+
+    .project-body {
+        padding: 16px;
+    }
+
+    .project-body h5 {
+        font-size: 17px;
+        color: rgb(232, 18, 125);
+    }
+
+    .project-tech {
+        margin-bottom: 16px;
+    }
+
+    .project-tech span {
+        margin: 4px;
+    }
+
+}

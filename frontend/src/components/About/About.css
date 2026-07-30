@@ -1,0 +1,43 @@
+/* ===========================
+   About
+=========================== */
+
+.about_wrapper{
+    padding:100px 0;
+}
+
+.about_wrapper .subtitle{
+    display:inline-block;
+    font-size:16px;
+    font-weight:600;
+    color:var(--primary-text);
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.about_wrapper h2{
+    margin-bottom:25px;
+}
+
+.about_wrapper p{
+    margin-bottom:20px;
+}
+
+.about_wrapper .about-img img{
+    border-radius:20px;
+}
+p span{
+    font-weight:500 ;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:767px){
+
+    .about_wrapper{
+        padding:70px 0;
+    }
+
+}

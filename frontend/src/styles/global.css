@@ -1,0 +1,220 @@
+/* ==========================================
+   Google Fonts
+========================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* ==========================================
+   CSS Variables
+========================================== */
+
+:root {
+  /* Background */
+  --primary-color: #4458dc;
+  --secondary-color: #854fee;
+
+  --bg-white: #ffffff;
+  --bg-light: #faf8ff;
+  --bg-black: #000000;
+  --bg-gray: #eeeeee;
+
+  --gradient: linear-gradient(
+      to right,
+      #4458dc 0%,
+      #854fee 100%
+    ),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+
+  /* Text */
+
+  --primary-text: #4458dc;
+  --secondary-text: #854fee;
+
+  --text-white: #ffffff;
+  --text-black: #000000;
+  --text-gray: #777777;
+
+  /* Fonts */
+
+  --primary-font: "Rubik", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+/* ==========================================
+   Reset
+========================================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--secondary-font);
+  width: 100%;
+  overflow-x: hidden;
+
+  background-image: url("../assets/images/body-bg.png.webp");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ==========================================
+   Scrollbar
+========================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 20px;
+}
+
+/* ==========================================
+   Typography
+========================================== */
+
+h1 {
+  font-size: 2.275rem;
+  font-weight: 600;
+  color: var(--text-black);
+  margin-bottom: 0.8rem;
+  font-family: var(--primary-font);
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 3.4375rem;
+  font-weight: 500;
+  color: var(--text-black);
+  margin-bottom: 1.5625rem;
+  font-family: var(--primary-font);
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--text-black);
+  margin-bottom: 0.9375rem;
+  font-family: var(--primary-font);
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-black);
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  
+}
+
+p {
+  color: var(--text-gray);
+  font-size: 0.9375rem;
+  line-height: 1.625rem;
+}
+
+/* ==========================================
+   Common
+========================================== */
+
+section {
+  margin-bottom: 5rem;
+}
+
+::selection {
+  background: #7c4dff;
+  color: #ffffff;
+}
+
+/* ==========================================
+   Buttons
+========================================== */
+
+.main-btn {
+  display: inline-block;
+
+  font-family: var(--primary-font);
+
+  font-size: 0.875rem;
+
+  font-weight: 500;
+
+  line-height: 2.875rem;
+
+  border-radius: 5px;
+
+  border: double 2px transparent;
+
+  padding: 0 1.625rem;
+
+  cursor: pointer;
+
+  transition: .3s;
+
+  box-shadow: 0 10px 30px rgba(118,85,225,.30);
+}
+
+.primary-btn {
+
+  background-image: var(--gradient);
+
+  color: var(--text-white);
+}
+
+.primary-btn:hover {
+
+  background: var(--bg-white);
+
+  color: var(--secondary-text);
+
+  border-color: var(--secondary-color);
+
+  box-shadow: none;
+}
+
+.secondary-btn {
+
+  background: var(--bg-white);
+
+  color: var(--secondary-text);
+
+  border-color: var(--secondary-color);
+}
+
+.secondary-btn:hover {
+
+  background-image: var(--gradient);
+
+  color: var(--text-white);
+
+  box-shadow: none;
+}

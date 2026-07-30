@@ -1,0 +1,152 @@
+/* =====================================
+   Footer
+===================================== */
+
+.footer-section {
+    padding: 60px 0 0;
+}
+
+/* =====================================
+   Follow Me
+===================================== */
+
+.follow-content {
+    text-align: left;
+}
+
+.follow-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.title-line {
+    width: 70px;
+    height: 4px;
+    background: #6c63ff;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.follow-text {
+    max-width: 420px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+/* =====================================
+   Social Icons
+===================================== */
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background: #f5f5f5;
+    color: #333;
+
+    transition: .35s;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.18);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.social-links a:hover {
+    transform: translateY(-8px);
+    background: #6c63ff;
+    color: #fff;
+}
+
+.social-links a::after {
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.15);
+
+    transform: scale(0);
+
+    transition: .35s;
+}
+
+.social-links a:hover::after {
+    transform: scale(1.8);
+}
+
+
+.social-links svg {
+    width: 24px;
+    height: 24px;
+}
+.copyright{
+    margin: 5rem 0 0;
+}
+
+/* =====================================
+   Responsive
+===================================== */
+
+@media (max-width:991px){
+
+    .follow-content{
+        text-align:center;
+    }
+
+    .title-line{
+        margin:0 auto 30px;
+    }
+
+    .follow-text{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .social-links{
+        justify-content:center;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .follow-title{
+        font-size:1.4rem;
+    }
+
+    .social-links a{
+
+        width:55px;
+        height:55px;
+
+    }
+
+    .social-links svg{
+
+        width:22px;
+        height:22px;
+
+    }
+
+}
