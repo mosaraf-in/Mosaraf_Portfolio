@@ -111,15 +111,15 @@
 /* Mobile */
 @media (max-width: 767px) {
   .header_wrapper .navbar-logo {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
   }
 }
 
 /* Small Mobile */
 @media (max-width: 400px) {
   .header_wrapper .navbar-logo {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
   }
 }
