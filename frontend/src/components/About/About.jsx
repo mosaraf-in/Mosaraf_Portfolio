@@ -35,11 +35,11 @@ function About() {
                 building impactful software solutions that make a difference.</p>
               <a
                 href={resume}
-                target="_blank"
+                download="Mosaraf_Resume.pdf"
                 rel="noopener noreferrer"
                 className="main-btn primary-btn mt-4"
               >
-                Download CV
+                Download Resume
               </a>
 
             </div>
