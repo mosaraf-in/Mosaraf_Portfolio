@@ -4,8 +4,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaYoutube,
-  FaLinkedin,
+  FaGithub,
   FaLinkedinIn,
 } from "react-icons/fa";
 
@@ -35,7 +34,7 @@ const Footer = () => {
               <div className="social-links">
 
                 <a
-                  href="https://www.facebook.com/share/1DUmF9JUZ8/"
+                  href="https://www.facebook.com/share/1KVzK6GsMD/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"
@@ -45,16 +44,16 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="https://twitter.com/yourusername"
+                  href="https://github.com/mosaraf-in"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="Twitter"
+                  aria-label="GitHub"
                 >
-                  <FaTwitter size={24} color="#000000" />
+                  <FaGithub size={24} color="#000000" />
                 </a>
 
                 <a
-                  href="https://instagram.com/yourusername"
+                  href="https://www.instagram.com/mosaraf_1208?srtk=Yzd2Z3E0MWNjb3o0"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
@@ -63,10 +62,10 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="https://youtube.com/@yourchannel"
+                  href="https://www.linkedin.com/in/mosaraf1208/"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="YouTube"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn size={24} color="#0A66C2" />
                 </a>

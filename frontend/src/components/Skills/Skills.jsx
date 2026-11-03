@@ -143,7 +143,7 @@ function Skills() {
                                     2022 - 2026
                                 </span>
                                 <p>
-                                    Pursuing B.Tech in Computer Science & Engineering from <b>Global Institute of
+                                    Completed B.Tech in Computer Science & Engineering from <b>Global Institute of
                                         Engineering and Technology</b>, Hyderabad (JNTUH), Telangana.
                                 </p>
                             

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 import { FaBars, FaXmark } from "react-icons/fa6";
 
-import logo from "../../assets/images/logo2.png";
+import logo from "../../assets/images/logo2.jpeg";
 
 import "./Navbar.css";
 
@@ -41,9 +41,12 @@ function Navbar() {
       >
         <div className="container">
           {/* Logo */}
-          <a className="navbar-brand" href="#home">
-            <img src={logo} className="img-fluid" alt="logo" />
+             <a className="navbar-brand" href="#home">
+            <img src={logo} className="img-fluid rounded-circle navbar-logo" alt="logo"
+            />
           </a>
+          
+         
 
           {/* Mobile Toggle */}
 
