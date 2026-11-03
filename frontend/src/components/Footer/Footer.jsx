@@ -2,7 +2,6 @@ import "./Footer.css";
 
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaGithub,
   FaLinkedinIn,
